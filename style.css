@@ -1,0 +1,86 @@
+.bgIMG {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+#button-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#button-container #board-size {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#button-container #resize-btn {
+  border-radius: 10px;
+  margin: 10px;
+  border: 0;
+}
+
+#button-container #clear-btn {
+  border-radius: 10px;
+  margin: 10px;
+  border: 0;
+}
+
+.palette-size {
+  display: flex;
+  width: 99vw;
+  justify-content: center;
+}
+
+#pixel-board {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.row {
+  flex-direction: column;
+}
+
+.row .pixel {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 25px;
+  height: 25px;
+  border: black solid 1px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: white solid 2px;
+  border-radius: 100%;
+  margin: 8px;
+}
+
+.color:nth-child( 1 ) {
+  background-color: black;
+
+}
+
+.color:nth-child( 2 ) {
+  background-color: purple;
+}
+
+.color:nth-child( 3 ) {
+  background-color: blue;
+}
+
+.color:nth-child( 4 ) {
+  background-color: yellow;
+}
+
+.color:nth-child( 5 ) {
+  background-color: green;
+}
+
+

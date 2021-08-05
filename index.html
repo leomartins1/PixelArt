@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pixels Art</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img class="bgIMG" src="/project/pixel-art/src/space-invaders.jpg">
+    <table id="color-palette">
+      <tr class="palette-size">
+        <th class="color selected" id="first"></th>
+        <th class="color"></th>
+        <th class="color"></th>
+        <th class="color"></th>
+        <th class="color"></th>
+      </tr>
+    </table>
+    <div id="button-container">
+      <button id="resize-btn">Resize</button>
+      <input id="board-size" value="17" size="1"/>
+      <button id="clear-btn">Clear</button>
+  </div>
+    <table id="pixel-board"></table>
+    <script src="script.js"></script>
+  </body>
+</html>
